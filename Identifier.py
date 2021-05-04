@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# make a funtion for processing the image
 def process_image(image_path):
     '''
     Takes the image_path as input and process on it and return the processed image
@@ -27,6 +28,7 @@ def process_image(image_path):
     # return our processed image
     return image
 
+# make a fnction for showing the image and their breed which model predicts
 def show_image(image_path, predicted_label):
     '''
     Takes the image file path as input, turn the image into processed image and show it
